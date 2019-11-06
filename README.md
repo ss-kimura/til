@@ -1,2 +1,2 @@
 # Frontend Roadmap
-<img src="frontend-developer.png" title="frontend">
+<img src="images/frontend.png" title="frontend">
