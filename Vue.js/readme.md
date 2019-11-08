@@ -56,3 +56,8 @@ axiosを使う
 - v-on
 - v-model
 - v-for
+
+# Github Pagesに配布
+githubのrepositoryを選択し、settingsのgithub pagesにあるsourceのブランチをmasterにすると  
+xxx.github.io/repository/ というリンクができるのでこれを公開する。
+これを使えば無料でWeb Appをいくらでも公開できる。
