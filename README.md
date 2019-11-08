@@ -1,7 +1,6 @@
-[frontend](#frontend)  
-[backend](#backend)  
-[devops](#devops)
-
+- [frontend](#frontend)  
+- [backend](#backend)  
+- [devops](#devops)
 <a name="frontend">
 <img src="images/frontend.png" title="frontend">
 
