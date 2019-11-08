@@ -33,3 +33,10 @@ htmlファイルに以下の文を追加
 
 # 実行方法
 実行したいファイルを右クリックし**Open with Live Server**をクリック
+
+# これだけ知っていればよい
+- Vue.jsコア
+- Vue Router
+- Vuex
+- Vue CLI
+- Vue devtools
