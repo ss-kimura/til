@@ -45,3 +45,6 @@ htmlファイルに以下の文を追加
 - コンポネント基盤
 - MVVMパターン
 - Two-way data binding, Virtual DOM
+
+# HTTP通信
+axiosを使う
