@@ -2,6 +2,9 @@
 昔はHTML, CSS, JavaScriptだけでよかったが、  
 今はES6, npm, webpack, TypeScript。
 
+# 検索時
+keyword **mdn**で検索した方がいい
+
 # 開発に必要なもの
 - Chrome
 - Git
@@ -48,3 +51,8 @@ htmlファイルに以下の文を追加
 
 # HTTP通信
 axiosを使う
+
+# directive
+- v-on
+- v-model
+- v-for
