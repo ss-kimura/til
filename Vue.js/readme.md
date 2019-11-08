@@ -40,3 +40,8 @@ htmlファイルに以下の文を追加
 - Vuex
 - Vue CLI
 - Vue devtools
+
+# Vue.jsの特徴
+- コンポネント基盤
+- MVVMパターン
+- Two-way data binding, Virtual DOM
