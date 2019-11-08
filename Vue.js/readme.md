@@ -61,3 +61,12 @@ axiosを使う
 githubのrepositoryを選択し、settingsのgithub pagesにあるsourceのブランチをmasterにすると  
 xxx.github.io/repository/ というリンクができるのでこれを公開する。
 これを使えば無料でWeb Appをいくらでも公開できる。
+
+# 公式サイト
+[MDN Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[Web Fundamentals](https://developers.google.com/web/fundamentals)
+[Vue.js Developers](https://vuejsdevelopers.com/)
+[Vue.js](https://vuejs.org/index.html)
+[Vue CLI](https://cli.vuejs.org/)
+[Vue router](https://router.vuejs.org/)
+
