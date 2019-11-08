@@ -4,3 +4,4 @@
 
 # Cheatsheet
 - **! + Tab** or **! + Enter**でHTML5のテンプレート文が表示される(**html:5 + Enter**でもいい)
+- **div#app + Enter**で<div id="app"></div>
