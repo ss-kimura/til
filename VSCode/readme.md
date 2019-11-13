@@ -12,7 +12,11 @@
 
 2. 再起動後、microsoft storeからubuntuをいれる  
 
-3. ubuntuを起動しroot以外のユーザーを作る(必須ではない)  
+3. ubuntuを起動しsudoできるユーザーを作る  
 
 4. terminalのデフォルトshellをubuntuにする  
-**Terminal: Select Default Shell**を選択し、WSL Bashを選択する
+**Terminal: Select Default Shell**を選択し、WSL Bashを選択する  
+
+5. nodejs使いたいのでいれる  
+```apt-get update```  
+```apt-get install nodejs```
