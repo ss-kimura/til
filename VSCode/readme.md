@@ -5,3 +5,9 @@
 # Cheatsheet
 - **! + Tab** or **! + Enter**でHTML5のテンプレート文が表示される(**html:5 + Enter**でもいい)
 - **div#app + Enter**で<div id="app"></div>
+
+# WSL(Windows Subsystem for Linux)をいれる  
+1. 管理者モードでPowerShellを起動し以下のコマンドを実行 
+```C:\Windows\System32> Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux```  
+
+2. 再起動後、ストアからWSLをいれる
