@@ -10,4 +10,9 @@
 1. 管理者モードでPowerShellを起動し下記のコマンドを実行しWSLを有効化   
 ```C:\Windows\System32> Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux```  
 
-2. 再起動後、ストアからWSLをいれる
+2. 再起動後、microsoft storeからubuntuをいれる  
+
+3. ubuntuを起動しroot以外のユーザーを作る(必須ではない)  
+
+4. terminalのデフォルトshellをubuntuにする  
+**Terminal: Select Default Shell**を選択し、WSL Bashを選択する
