@@ -1,9 +1,10 @@
+# webpackの意義  
 JSの役割が大きくなるにつれ、コード量が増え複雑になってきてるが、
 
 例えば、
 
-```<script src="module1.js"></script>```  
-```<script src="module2.js"></script>```
+```<script src="module1.js"></script>```    
+```<script src="module2.js"></script>```  
 ```<script src="module3.js"></script>```
 
 のように連続で読み込んだ場合、ローディング順序によって変数のスコープが衝突したり、同じ変数の中身が上書きされたり、
