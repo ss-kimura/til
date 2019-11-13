@@ -7,7 +7,7 @@
 - **div#app + Enter**で<div id="app"></div>
 
 # WSL(Windows Subsystem for Linux)をいれる  
-1. 管理者モードでPowerShellを起動し以下のコマンドを実行 
+1. 管理者モードでPowerShellを起動し下記のコマンドを実行しWSLを有効化   
 ```C:\Windows\System32> Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux```  
 
 2. 再起動後、ストアからWSLをいれる
