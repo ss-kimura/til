@@ -114,3 +114,12 @@ div { width: 100px; height: 100px; border: 10px solid red; }
 border-width: 1px 2px 3px 4px;  
 border-style: solid double dotted dashed;  
 border-color: black red blue orange;  
+
+# box model  
+```html
+<style>
+  div { padding:20px; width:100px; height:100px; border:10px solid red; }
+</style>
+```  
+縦横100pxのボックスを描く場合、上記のように書くとpaddingの分だけボックスがデカくなり、線も太くなる。  
+したがって予めpadding分を引いたwidth or heightを使わないといけない。  
