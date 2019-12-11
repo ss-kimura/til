@@ -1,7 +1,9 @@
 ### EC2
 - EC2のinbound ruleだけ開けてもダメ。firewall-cmdでもポートを開ける必要がある
+- 停止と終了は全然違う・・。定期的にOSイメージのAMIを作っておけば、間違えて終了しても復元できる。
+- Terminate Protectionをかけるか、権限ない人はterminateできないようにすべき。
 
-### s3
+### S3
 ```php
 $this->config = [
     'key'    => $this->accessKey,
