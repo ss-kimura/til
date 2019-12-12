@@ -56,6 +56,8 @@ https://portal.aws.amazon.com/gp/aws/html-forms-controller/contactus/ec2-email-l
 - バウンス率は 5% 以下、苦情率は 0.1% 未満に抑える必要がある。  
 （バウンスや苦情についてはAmazon SES Metrics から参照できる）
 
+- 上記を守れなかった場合、最大14日間メール送信ができなくなる
+
 ■用語説明  
 **OP25B**  
 ISPが25ポートを利用したメール送信を制限すること
