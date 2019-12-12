@@ -40,14 +40,14 @@ $this->config = [
 この制限を外すためには申請が必要で、手続きには1日かかる。
 
 - OP25B(Outbound port25 blocking)対策
-DNSのAレコードを作成し、AWSに対してEメール送信制限解除リクエストを行う
+DNSのAレコードを作成し、AWSに対してEメール送信制限解除リクエストを行う  
+↑SESでは25番以外を使うので不要
 
 - EC2で利用するElastic IPがRBL（ブラックリスト）に乗ってる可能性があるので、
 次のフォームに必要事項を入力してメール送信制限の解除申請を必要がある
-https://portal.aws.amazon.com/gp/aws/html-forms-controller/contactus/ec2-email-limit-rdns-request
+https://portal.aws.amazon.com/gp/aws/html-forms-controller/contactus/ec2-email-limit-rdns-request  
+↑SESで対応してくれるので不要。自前でメールサーバーを立てる場合は必要。
 
-
-■やったほうがいいこと
 - SPF設定
 
 - DKIMの設定
@@ -59,7 +59,7 @@ https://portal.aws.amazon.com/gp/aws/html-forms-controller/contactus/ec2-email-l
 - 上記を守れなかった場合、最大14日間メール送信ができなくなる
 
 ■用語説明  
-**OP25B**  
+**OP25B(Outbound Port25 Blocking)**  
 ISPが25ポートを利用したメール送信を制限すること
 
 **RBL**  
