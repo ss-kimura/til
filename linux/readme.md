@@ -30,3 +30,6 @@ ZONE="UTC"
 UTC=true
 ```
 このままでは再起動したらUTCに戻るので、falseにする
+
+あと、crondも再起動しないといけない  
+```systemctl restart crond```
