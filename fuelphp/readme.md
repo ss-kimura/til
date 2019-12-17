@@ -27,5 +27,7 @@ class Test
 apiやcmsと違い、サーバーを通さないので環境変数を指定しないといけない
 
 # crontab
-```0 19 * * *  FUEL_ENV=development  /usr/bin/php /var/xxx/oil refine blog```  
+```
+FUEL_ENV=development
+0 19 * * *    /usr/bin/php /var/xxx/oil refine blog```  
 
