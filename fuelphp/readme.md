@@ -23,8 +23,8 @@ class Test
 ```
 
 # 実行
-```php oil refine test``` or ```php oil refine test:get "something"```  
+```FUEL_ENV=localhost php oil refine test``` or ```FUEL_ENV=localhost php oil refine test:get "something"```  
+apiやcmsと違い、サーバーを通さないので環境変数を指定しないといけない
 
 # crontab
-```* * * * * php /some_path/oil refine test```
-
+```* * * * * php /some_path/oil refine test```  
