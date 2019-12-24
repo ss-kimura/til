@@ -33,3 +33,14 @@ UTC=true
 
 あと、crondも再起動しないといけない  
 ```systemctl restart crond```
+
+### postfix
+```
+# yum install postfix  
+# systemctl start postfix
+# systemctl enable postfix
+インストール確認  
+# postconf  | grep mail_version
+# which postfix  
+/usr/sbin/sendmail
+```
