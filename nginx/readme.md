@@ -21,3 +21,17 @@ server {
 }
 ```
 nginx再起動
+
+# wwwとwwwなしどっちもアクセスさせる(SEO的には不利)
+```
+example.com IN A 0.0.0.0 
+www.example.com IN A 0.0.0.0
+```
+
+```
+server {
+    listen       80;
+    server_name  .xxxxx.jp;
+}
+```
+nginx再起動
