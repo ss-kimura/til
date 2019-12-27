@@ -22,7 +22,7 @@ server {
 ```
 nginx再起動
 
-# wwwとwwwなしどっちもアクセスさせる(SEO的には不利)
+# wwwとwwwなしどっちもアクセスさせる(SEO的に不利かも)
 ```
 example.com IN A 0.0.0.0 
 www.example.com IN A 0.0.0.0
@@ -31,7 +31,7 @@ www.example.com IN A 0.0.0.0
 ```
 server {
     listen       80;
-    server_name  .xxxxx.jp;
+    server_name  .xxxxx.jp; # www.xxx.jp xxx.jp;でもいい
 }
 ```
 nginx再起動
