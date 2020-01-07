@@ -35,3 +35,13 @@ server {
 }
 ```
 nginx再起動
+
+# 413 Request Entity Too Large
+設定ファイルに
+```nginx
+server {
+  client_max_body_size 100M;
+  ...
+}
+```
+を追加
