@@ -14,3 +14,11 @@ private static function checkEmail($email) {
     }
 }
 ```
+
+- アップロードさせるファイルサイズ指定
+
+upload_max_filesize = default 2M   
+post_max_size = default 8M   
+upload_max_filesizeだけ大きくしてもpost_max_sizeに引っかかってうまくいかない   
+両方のパラメータをあげる必要がある。   
+upload_max_filesize < post_max_size
