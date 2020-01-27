@@ -26,6 +26,8 @@ $this->config = [
      ],
 ];
 ```
+- 一括DL   
+```aws s3 cp s3://[bucket]/voice . --recursive```
 
 ### SES
 ■SESを利用するために最低限必要なこと  
