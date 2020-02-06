@@ -72,3 +72,7 @@ ISPが25ポートを利用したメール送信を制限すること
 
 **DKIMの署名**  
 メール送信中に第三者によって改ざんされてないことをISPが証明するため、メールメッセージに署名すること
+
+### CloudFront
+■Cache Clear   
+- Create Invalidationsで/image/some.png
