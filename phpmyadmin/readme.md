@@ -21,4 +21,5 @@ $cfg['Servers'][$i]['controluser'] = 'USER';
 $cfg['Servers'][$i]['controlpass'] = 'PW';
 
 $cfg['LoginCookieValidity'] = 86400;
+$cfg['SendErrorReports'] = 'never';
 ```
