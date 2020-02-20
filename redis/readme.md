@@ -4,7 +4,8 @@ vi /etc/redis.conf
 ```
 stop-writes-on-bgsave-error no
 ```
-systemctl restart redis
+redis-cli shutdown NOSAVE   
+redis-server --protected-mode no   
 
 または   
 redis-cliで   
