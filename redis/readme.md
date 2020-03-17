@@ -19,7 +19,7 @@ vi /etc/redis.conf
 protected-mode no
 ```
 redis-cli shutdown NOSAVE   
-redis-server --protected-mode no   
+redis-server --protected-mode no &   
 
 
 
